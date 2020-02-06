@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Third">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#d787f15a"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/famous1"
+                android:textSize="20sp"
+                android:textColor="#dcec2e27"
+                android:textAlignment="center"
+                android:padding="15sp"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:src="@drawable/naz"
+                android:contentDescription="@string/todo5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/famous4"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:padding="15sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/manna"
+                android:textSize="20sp"
+                android:textColor="#f21ee8"
+                android:textAlignment="center"
+                android:padding="15sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/manna"
+                android:contentDescription="@string/todo13" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/manna2"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:padding="15sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Prom"
+                android:textSize="20sp"
+                android:textColor="#e9082cf9"
+                android:textAlignment="center"
+                android:padding="15sp"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/picture_img"
+                android:contentDescription="@string/todo14" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Promote"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:padding="15sp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
